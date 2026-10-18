@@ -1,1 +1,69 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
 .env
+.env.*
+!.env.example
+
+# Downloaded audio and video
+downloads/
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.webm
+*.aac
+*.flac
+
+# Generated audio chunks and temporary files
+chunks/
+temp/
+tmp/
+*.part
+*.ytdl
+
+# Whisper model files and caches
+.cache/
+cache/
+models/
+*.pt
+*.pth
+
+# Logs
+*.log
+logs/
+
+# Test and coverage files
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build and distribution files
+build/
+dist/
+*.egg-info/
+
+# Local configuration
+config.local.py
