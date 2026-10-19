@@ -174,7 +174,7 @@ Whisper and the embedding model may take additional time and disk space to downl
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/AkarshVyas/AI-Video-Assistant-.git
+git clone https://github.com/Srikanth-Kuruva/AI-Video-Assistant
 cd AI-Video-Assistant-
 ```
 
